@@ -1,0 +1,1786 @@
+<!DOCTYPE HTML>
+<html id="cv">
+<head>
+	<title>Alex Poter CV</title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta http-equiv="cache-control" content="max-age=0"/>
+	<meta http-equiv="cache-control" content="no-cache"/>
+	<meta http-equiv="expires" content="0"/>
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT"/>
+	<meta http-equiv="pragma" content="no-cache"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="viewport" content="width = device-width, minimal-ui, initial-scale = 1, user-scalable = 1"/>
+	<meta name="apple-mobile-web-app-title" content="Alex Poter CV"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+	<base href="/">
+	<style>
+		.x-resume-page.container {
+			/** Layout **/
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+		}
+
+		.x-resume-page ul {
+			/** Layout **/
+			margin-bottom: 0.5rem;
+		}
+
+		.x-top-project {
+			margin-top: 0.5rem;
+		}
+
+		.x-resume-page .x-after-project ul {
+			margin-bottom: 1rem;
+		}
+
+		.x-resume-title {
+			/** Layout **/
+			margin-bottom: 2rem;
+		}
+
+		.x-resume-section {
+			/** Layout **/
+			margin-bottom: 1rem;
+			clear: both;
+		}
+
+		.x-resume-lang a {
+			/** Layout **/
+			float: right;
+		}
+
+		.x-none {
+			display: none;
+		}
+
+		.x-role, .x-important {
+			/** Styles **/
+			text-decoration: underline;
+		}
+
+		.x-key-words {
+			/** Styles **/
+			color: #838383;
+			font-weight: 700;
+		}
+
+		.x-project-name {
+			/** Styles **/
+			font-weight: 500;
+		}
+
+		.x-translate .x-exclude-text {
+			/** Styles **/
+			display: none;
+		}
+
+		.x-english .x-ru, .x-english .x-de,
+		.x-russian .x-en, .x-russian .x-de,
+		.x-deutsch .x-en, .x-deutsch .x-ru {
+			display: none;
+		}
+
+		/** Media **/
+		@media (max-width: 1200px) {
+			html {font-size: 15px;}
+		}
+		@media (max-width: 992px) {
+			html {font-size: 13px;}
+		}
+		@media (max-width: 768px) {
+			html {font-size: 11px;}
+		}
+		@media (max-width: 544px) {
+			html {font-size: 11px;}
+		}
+		@media (max-width: 400px) {
+			html {font-size: 10px;}
+		}
+	</style>
+	<script>
+		var winHref = window.location.href;
+		if (winHref.indexOf('localhost') === -1 && winHref.indexOf('debug') === -1) {
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			  ga('create', 'UA-72031769-9', 'auto');
+			  ga('send', 'pageview');
+		}
+
+		var initLanguage = function () {
+			document.body.className = 'x-english';
+		};
+
+		var setLanguage = function (lang) {
+			document.location.hash = lang || document.location.hash;
+
+			var curLang = document.location.hash.replace('#', '');
+			curLang && ~['deutsch', 'russian', 'english'].indexOf(curLang) && (document.body.className = 'x-{lang}'.replace('{lang}', curLang));
+		};
+	</script>
+</head>
+<body class="x-none"> <!-- x-none - workaround for github.io viewer -->
+<div class="container x-resume-page">
+	<div class="pager pager-next x-resume-lang">
+		<a href="javascript:void(0);" onclick="window.print();">[PRINT]</a>
+		<a href="javascript:void(0);" onclick="setLanguage('deutsch')">[DE]</a>
+		<a href="javascript:void(0);" onclick="setLanguage('russian')">[RU]</a>
+		<a href="javascript:void(0);" onclick="setLanguage('english')">[EN]</a>
+	</div>
+
+	<div class="x-resume-title row x-exclude-text">
+		<div class="col-xs-12">
+			<h4>
+				<b>
+					<span class="x-en">ALEX POTER</span>
+					<span class="x-ru">АЛЕКСАНДР ПОТЕРЕНКО</span>
+					<span class="x-de">ALEX POTER</span>
+				</b>
+			</h4>
+			a.poterenko@gmail.com<br>
+			apoterenko [skype]<br>
+			<a href="https://github.com/apoterenko/resume" target="_blank">github.com/apoterenko/resume</a><br>
+		</div>
+	</div>
+
+	<div class="x-resume-section row">
+		<div class="col-xs-2">
+			<b class="text-uppercase">
+				<span class="x-en">Career goal</span>
+				<span class="x-ru">Карьерная цель</span>
+				<span class="x-de">Career goal</span>
+			</b>
+		</div>
+		<div class="col-xs-10">
+			<b>JavaScript</b>&nbsp;&nbsp;<b>TypeScript</b>&nbsp;&nbsp;<b>Java</b>&nbsp;&nbsp;<b>Node</b><br>
+			Senior/Lead Front-end Developer<br>
+			Senior/Lead Full-stack Developer
+		</div>
+	</div>
+
+	<div class="x-resume-section row">
+		<div class="col-xs-2">
+			<b class="text-uppercase">
+				<span class="x-en">Summary</span>
+				<span class="x-ru">Суммарный опыт</span>
+				<span class="x-de">Summary</span>
+			</b>
+		</div>
+		<div class="col-xs-10">
+			<span class="x-en">Experienced full-stack software developer:</span>
+			<span class="x-ru">Значительный опыт в качестве разработчика программного обеспечения, специализирующегося на разработке Full-stack приложений:</span>
+			<span class="x-de">Experienced full-stack software developer:</span>
+			<ul>
+				<li>1+
+					<span class="x-en">years</span>
+					<span class="x-ru">лет</span>
+					<span class="x-de">years</span>
+					<span class="x-key-words">TypeScript 1/2</span>, <span class="x-key-words">Angular 1/2</span>, <span class="x-key-words">jQuery</span>
+				</li>
+				<li>8+
+					<span class="x-en">years</span>
+					<span class="x-ru">лет</span>
+					<span class="x-de">years</span>
+					<span class="x-key-words">ECMAScript 5/6</span>, <span class="x-key-words">HTML 4/5</span>
+				</li>
+				<li>6+
+					<span class="x-en">years</span>
+					<span class="x-ru">лет</span>
+					<span class="x-de">years</span>
+					<span class="x-key-words">ExtJS 2-6</span>, <span class="x-key-words">JSE 5/6</span>, <span class="x-key-words">JEE</span>
+				</li>
+			</ul>
+			<b class="text-uppercase">
+				<span class="x-en">Expertise:</span>
+				<span class="x-ru">Экспертиза:</span>
+				<span class="x-de">Sachverstand:</span>
+			</b>
+			<ul>
+				<li>
+					<span class="x-en">Strong knowledge:</span>
+					<span class="x-ru">Уверенные знания:</span>
+					<span class="x-de">Strong knowledge:</span>
+					<ul>
+						<li>
+							<span class="x-en">Object-oriented languages:</span>
+							<span class="x-ru">Объектно-ориентированных языков:</span>
+							<span class="x-de">Object-oriented languages:</span>
+							<span class="x-key-words">JavaScript</span>, <span class="x-key-words">TypeScript</span>, <span class="x-key-words">Java</span>
+						</li>
+						<li>
+							<span class="x-en">Programming paradigms: <span class="x-key-words">Event-based</span>, <span class="x-key-words">Object-oriented</span>, <span class="x-key-words">Declarative</span>, <span class="x-key-words">Functional</span>, <span class="x-key-words">Reactive</span></span>
+							<span class="x-ru">Парадигм программирования: <span class="x-key-words">Событийной</span>, <span class="x-key-words">Объектно-ориентированной</span>, <span class="x-key-words">Декларативной</span>, <span class="x-key-words">Функциональной</span>, <span class="x-key-words">Реактивной</span></span>
+							<span class="x-de">Programming paradigms: <span class="x-key-words">Event-based</span>, <span class="x-key-words">Object-oriented</span>, <span class="x-key-words">Declarative</span>, <span class="x-key-words">Functional</span>, <span class="x-key-words">Reactive</span></span>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span class="x-en">Hands-on commercial experience:</span>
+					<span class="x-ru">Практический коммерческий опыт:</span>
+					<span class="x-de">Hands-on commercial experience:</span>
+					<ul>
+						<li>
+							<span class="x-en">Developing scalable, sustainable, multi-module applications using</span>
+							<span class="x-ru">Разработка масштабируемых, устойчивых, многомодульных приложений с использованием</span>
+							<span class="x-de">Developing scalable, sustainable, multi-module applications using</span>
+							<span class="x-key-words">JavaScript</span>, <span class="x-key-words">TypeScript</span>, <span class="x-key-words">Java</span>
+						</li>
+						<li>
+							<span class="x-en">Optimising <span class="x-key-words">JavaScript</span> code for enhanced performance and memory leaks prevention [closure pitfalls, batching DOM changes, using async and defer attributes, and other methods]</span>
+							<span class="x-ru">Оптимизация кода <span class="x-key-words">JavaScript</span> для увеличение производительности и предотвращение утечек памяти [подводные камни замыканий, пакетное изменение DOM, использование async и defer атрибутов, и т.д.]</span>
+							<span class="x-de">Optimising <span class="x-key-words">JavaScript</span> code for enhanced performance and memory leaks prevention [closure pitfalls, batching DOM changes, using async and defer attributes, and other methods]</span>
+						</li>
+						<li>
+							<span class="x-en">Profiling applications with <span class="x-key-words">VisualVM</span>, <span class="x-key-words">Chrome DevTools</span> [performance, memory use, threads activity]</span>
+							<span class="x-ru">Профилирование приложений с <span class="x-key-words">VisualVM</span>, <span class="x-key-words">Chrome DevTools</span> [производительность, использование памяти, активность потоков]</span>
+							<span class="x-de">Profiling applications with <span class="x-key-words">VisualVM</span>, <span class="x-key-words">Chrome DevTools</span> [performance, memory use, threads activity]</span>
+						</li>
+						<li>
+							<span class="x-en">Unit testing and integrated testing:</span>
+							<span class="x-ru">Юнит-тестирование и интеграционное тестирование:</span>
+							<span class="x-de">Unit testing and integrated testing:</span>
+							<span class="x-key-words">JUnit</span>, <span class="x-key-words">TestNg</span>, <span class="x-key-words">Karma</span>, <span class="x-key-words">Jasmine</span>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span class="x-en">Good knowledge:</span>
+					<span class="x-ru">Хорошие знания:</span>
+					<span class="x-de">Good knowledge:</span>
+					<ul>
+						<li>
+							<span class="x-en">Java ecosystem:</span>
+							<span class="x-ru">Java-экосистемы:</span>
+							<span class="x-de">Java ecosystem:</span>
+							<span class="x-key-words">Collections</span>,
+							<span class="x-key-words">Jsp</span>,
+							<span class="x-key-words">Servlets</span>,
+							<span class="x-key-words">Jdbc</span>,
+							<span class="x-key-words">Google Guice & Guava</span>,
+							<span class="x-key-words">Tomcat</span>,
+							<span class="x-key-words">JasperReports</span>
+						</li>
+						<li>
+							<span class="x-en">Markup and style sheet languages:</span>
+							<span class="x-ru">Языков разметки, таблиц стилей:</span>
+							<span class="x-de">Markup and style sheet languages:</span>
+							<span class="x-key-words">HTML4</span>, <span class="x-key-words">Css2</span>
+						</li>
+						<li>
+							IDE: <span class="x-key-words">IntelliJ Idea</span>, <span class="x-key-words">WebStorm</span>
+						</li>
+						<li>
+							<span class="x-en">Build tools:</span>
+							<span class="x-ru">Систем автоматизированной сборки:</span>
+							<span class="x-de">Build tools:</span>
+							<span class="x-key-words">Maven</span>, <span class="x-key-words">Grunt</span>, <span class="x-key-words">Gulp</span>, <span class="x-key-words">Webpack</span>
+						</li>
+						<li>
+							<span class="x-en">CVS and code review tools:</span>
+							<span class="x-ru">Систем автоматизированной сборки и систем ревью кода:</span>
+							<span class="x-de">CVS and code review tools:</span>
+							<span class="x-key-words">Git</span>, <span class="x-key-words">Bitbucket</span>, <span class="x-key-words">Gerrit</span>
+						</li>
+						<li>
+							<span class="x-en">OS:</span>
+							<span class="x-ru">ОС:</span>
+							<span class="x-de">Betriebssystem:</span>
+							<span class="x-key-words">Windows</span>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span class="x-en">Good understanding:</span>
+					<span class="x-ru">Хорошее понимание:</span>
+					<span class="x-de">Good understanding:</span>
+					<ul>
+						<li>
+							<span class="x-en">Software engineering:</span>
+							<span class="x-ru">Разработки программного обеспечения:</span>
+							<span class="x-de">Softwareentwicklung:</span>
+							<span class="x-key-words">SDLC</span>, <span class="x-key-words">TDD</span>
+						</li>
+						<li>
+							<span class="x-en">Concurrency theory:</span>
+							<span class="x-ru">Теории параллелизма:</span>
+							<span class="x-de">Concurrency theory:</span>
+							<ul>
+								<li>
+									<span class="x-key-words">HTML5 Web Workers</span>
+								</li>
+								<li>
+									<span class="x-en"><span class="x-key-words">Java Multithreading</span>:</span>
+									<span class="x-ru"><span class="x-key-words">Многопоточность</span> в <span class="x-key-words">Java</span>:</span>
+									<span class="x-de"><span class="x-key-words">Java Multithreading</span>:</span>
+									<ul>
+										<li>
+											<span class="x-key-words">Volatile</span>
+										</li>
+										<li>
+											<span class="x-key-words">Synchronized</span>
+											<span class="x-en">vs</span>
+											<span class="x-ru">против</span>
+											<span class="x-de">vs</span>
+											<span class="x-key-words">Concurrent locks</span>
+										</li>
+										<li>
+											<span class="x-key-words">Object</span>
+											<span class="x-en">as</span>
+											<span class="x-ru">как</span>
+											<span class="x-de">as</span>
+											<span class="x-key-words">mutex</span>
+										</li>
+										<li>
+											<span class="x-key-words">Concurrency Abstractions</span>
+										</li>
+										<li>
+											<span class="x-en">Some</span>
+											<span class="x-ru">Некоторые</span>
+											<span class="x-de">Some</span>
+											<span class="x-key-words">JMM</span>
+											<span class="x-en">tricks</span>
+											<span class="x-ru">хитрости</span>
+											<span class="x-de">tricks</span>
+											[Final fields, Happens-Before Relation]
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Protocols:</span>
+							<span class="x-ru">Протоколов:</span>
+							<span class="x-de">Protokolle:</span>
+							<span class="x-key-words">REST</span>, <span class="x-key-words">JSON-RPC</span>, <span class="x-key-words">JSONP</span>
+						</li>
+						<li>
+							<span class="x-en">Security:</span>
+							<span class="x-ru">Безопасности:</span>
+							<span class="x-de">Sicherheit:</span>
+							<span class="x-key-words">XSS</span>, <span class="x-key-words">XSRF</span>, <span class="x-key-words">SQLi</span>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span class="x-en">Sufficient knowledge:</span>
+					<span class="x-ru">Достаточные знания:</span>
+					<span class="x-de">Ausreichende Kenntnisse:</span>
+					<ul>
+						<li>
+							<span class="x-en">Markup, style sheet and preprocessor languages:</span>
+							<span class="x-ru">Языков разметки, таблиц стилей и препроцессоры:</span>
+							<span class="x-de">Markup, style sheet and preprocessor languages:</span>
+							<span class="x-key-words">HTML5</span>, <span class="x-key-words">Css3</span>, <span class="x-key-words">Less</span>
+						</li>
+						<li>
+							<span class="x-en">Databases: <span class="x-key-words">RDBMS</span> and <span class="x-key-words">Sql</span> [design, normalisation, objects, queries, query plans]</span>
+							<span class="x-ru">Базы данных: <span class="x-key-words">RDBMS</span> и <span class="x-key-words">Sql</span> [проектирование, нормализация, объекты, запросы, планы запросов]</span>
+							<span class="x-de">Datenbanken: <span class="x-key-words">RDBMS</span> and <span class="x-key-words">Sql</span> [design, normalisation, objects, queries, query plans]</span>
+						</li>
+						<li>
+							<span class="x-en">Protocols: <span class="x-key-words">HTTP</span> [<span class="x-key-words">CORS</span>, <span class="x-key-words">keep-alive</span>, <span class="x-key-words">pipelining</span>, caching strategy/<span class="x-key-words">ETag</span>]</span>
+							<span class="x-ru">Протоколы: <span class="x-key-words">HTTP</span> [<span class="x-key-words">CORS</span>, <span class="x-key-words">keep-alive</span>, <span class="x-key-words">pipelining</span>, стратегии кэширования/<span class="x-key-words">ETag</span>]</span>
+							<span class="x-de">Protocols: <span class="x-key-words">HTTP</span> [<span class="x-key-words">CORS</span>, <span class="x-key-words">keep-alive</span>, <span class="x-key-words">pipelining</span>, caching strategy/<span class="x-key-words">ETag</span>]</span>
+						</li>
+						<li>
+							<span class="x-en">CI tools:</span>
+							<span class="x-ru">Инструменты непрерывной интеграции:</span>
+							<span class="x-de">CI tools:</span>
+							<span class="x-key-words">TeamCity</span>
+						</li>
+						<li>
+							UML
+							<span class="x-en">tools:</span>
+							<span class="x-ru">инструменты:</span>
+							<span class="x-de">tools:</span>
+							<span class="x-key-words">PlantUML</span>
+						</li>
+						<li>
+							<span class="x-en">Database tools:</span>
+							<span class="x-ru">Инструменты для баз данных:</span>
+							<span class="x-de">Database tools:</span>
+							<span class="x-key-words">Toad</span>
+						</li>
+						<li>
+							<span class="x-en">OS:</span>
+							<span class="x-ru">ОС:</span>
+							<span class="x-de">Betriebssystem:</span>
+							<span class="x-key-words">Linux</span>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<b>
+				<span class="x-en text-uppercase">Skills:</span>
+				<span class="x-ru text-uppercase">Навыки:</span>
+				<span class="x-de text-uppercase">Fähigkeiten:</span>
+			</b>
+			<ul>
+				<li>
+					<span class="x-en">Strong ability to write well-structured, readable and testable code and apply best software development practices:</span>
+					<span class="x-ru">Сильная способность писать хорошо структурированный, легко читаемый, тестируемый код и применять лучшие практики разработки программного обеспечения:</span>
+					<span class="x-de">Strong ability to write well-structured, readable and testable code and apply best software development practices:</span>
+					<ul>
+						<li>
+							<span class="x-key-words">
+								<span class="x-en">SOLID principles</span>
+								<span class="x-ru">SOLID принципы</span>
+								<span class="x-de">SOLID Grundsätze</span>
+							</span>
+						</li>
+						<li>
+							<span class="x-key-words">
+								<span class="x-en">Design Patterns/GoF</span>
+								<span class="x-ru">Паттерны проектирования/GoF</span>
+								<span class="x-de">Design Patterns/GoF</span>
+							</span>
+						</li>
+						<li>
+							<span class="x-key-words">
+								<span class="x-en">Code Reuse</span>
+								<span class="x-ru">Переиспользование кода</span>
+								<span class="x-de">Code Reuse</span>
+							</span>
+						</li>
+						<li>
+							<span class="x-key-words">
+								<span class="x-en">Refactoring</span>
+								<span class="x-ru">Рефакторинг</span>
+								<span class="x-de">Refactoring</span>
+							</span>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span class="x-en">Good analytical, problem-solving, troubleshooting and communication skills</span>
+					<span class="x-ru">Хорошие навыки: аналитические, решение проблем, поиск и устранение неисправностей, коммуникативные</span>
+					<span class="x-de">Good analytical, problem-solving, troubleshooting and communication skills</span>
+				</li>
+				<li>
+					<span class="x-en">Goal-oriented team player</span>
+					<span class="x-ru">Целенаправленный командный игрок</span>
+					<span class="x-de">Goal-oriented team player</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="x-resume-section row">
+		<div class="col-xs-2">
+			<b class="text-uppercase">
+				<span class="x-en">Employment history</span>
+				<span class="x-ru">Опыт</span>
+				<span class="x-de">Employment history</span>
+			</b>
+		</div>
+		<div class="col-xs-10">
+			<a href="http://www.acronis.com" target="_blank"><b>Acronis LLC</b></a><br>
+			<b>Senior Software Developer</b> [ <span class="x-en">full-time</span><span class="x-ru">на постоянной основе</span><span class="x-de">full-time</span> ]<br>
+			<b><span class="x-en">March</span><span class="x-ru">Март</span><span class="x-de">March</span> 2015 - <span class="x-en">December</span><span class="x-ru">Декабрь</span><span class="x-de">December</span> 2016</b> [ <span class="x-en">employment</span><span class="x-ru">рабочая</span><span class="x-de">employment</span>
+			<a href="https://github.com/apoterenko/resume/blob/master/references/Acronis.Employment%20Reference.Poterenko.A.G.pdf" target="_blank">
+				<span class="x-en">reference</span><span class="x-ru">ссылка</span><span class="x-de">reference</span>
+			</a>]
+			<ul class="x-top-project">
+				<li>
+					<a href="https://github.com/apoterenko/resume/tree/master/scheme/project12" target="_blank">
+						<b>
+							<span class="x-en">Project No. 12</span>
+							<span class="x-ru">Проект №12</span>
+							<span class="x-de">Projekt Nr. 12</span>
+							<br>
+							<span class="x-en">Multi-functional web applications bootstrapper for a standalone data centre and geo-distributed data centres</span>
+							<span class="x-ru">Мульти-функциональный загрузчик веб-приложения для автономного центра данных и гео-распределенных дата-центров</span>
+							<span class="x-de">Multi-functional web applications bootstrapper for a standalone data centre and geo-distributed data centres</span>
+						</b>
+					</a><br>
+					<ul>
+						<li>
+							<span class="x-en">Successfully put to commercial use</span>
+							<span class="x-ru">Успешно запущен в коммерческую эксплуатацию</span>
+							<span class="x-de">Successfully put to commercial use</span>
+						</li>
+						<li>
+							<span class="x-en">Role: <span class="x-role">Principal Front-End Developer</span> [a team of 1 front-end expert]</span>
+							<span class="x-ru">Роль: <span class="x-role">Основной Front-End разработчик</span> [команда из 1-го front-end эксперта]</span>
+							<span class="x-de">Role: <span class="x-role">Principal Front-End Developer</span> [a team of 1 front-end expert]</span>
+							<ul>
+								<li>
+									<span class="x-en">Design, developing modules, unit testing and integrated testing</span>
+									<span class="x-ru">Проектирование, разработка модулей, юнит-тестирование и интеграционное тестирование</span>
+									<span class="x-de">Design, developing modules, unit testing and integrated testing</span>
+								</li>
+								<li>
+									<span class="x-en">Integrating into the current ecosystem</span>
+									<span class="x-ru">Интеграция в существующую экосистему</span>
+									<span class="x-de">Integrating into the current ecosystem</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Achievements and personal contribution:</span>
+							<span class="x-ru">Достижения и личный вклад:</span>
+							<span class="x-de">Achievements and personal contribution:</span>
+							<ul>
+								<li>
+									<span class="x-en">The module operates successfully in two operating modes simultaneously for the following products:</span>
+									<span class="x-ru">Модуль успешно работает одновременно в двух основных рабочих режимах для продуктов:</span>
+									<span class="x-de">The module operates successfully in two operating modes simultaneously for the following products:</span>
+									<ul>
+										<li>
+											&laquo;On-Premise Backup Software&raquo;
+											<span class="x-en">[standalone mode]</span>
+											<span class="x-ru">[автономный режим]</span>
+											<span class="x-de">[standalone mode]</span>
+										</li>
+										<li>
+											&laquo;Cloud Backup as a Service&raquo;
+											<span class="x-en">[cloud mode]</span>
+											<span class="x-ru">[облачный режим]</span>
+											<span class="x-de">[cloud mode]</span>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Key points:</span>
+							<span class="x-ru">Ключевые моменты:</span>
+							<span class="x-de">Kernpunkte:</span>
+							<ul>
+								<li>
+									<span class="x-en">The module operates in the ecosystem with the &laquo;Fully connected mesh&raquo; topology</span>
+									<span class="x-ru">Модуль работает в экосистеме с &laquo;Fully connected mesh&raquo; топологией</span>
+									<span class="x-de">The module operates in the ecosystem with the &laquo;Fully connected mesh&raquo; topology</span>
+								</li>
+								<li>
+									<span class="x-en">Responsible for the area of critical importance [high cost of errors or malfunctions]</span>
+									<span class="x-ru">Критически высокая ответственность, высокая цена ошибок или сбоев</span>
+									<span class="x-de">Responsible for the area of critical importance [high cost of errors or malfunctions]</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Stack:</span>
+							<span class="x-ru">Стек:</span>
+							<span class="x-de">Stack:</span>
+							<ul>
+								<li>
+									<span class="x-key-words">TypeScript</span>, <span class="x-key-words">Bluebird</span>, <span class="x-key-words">Inversify</span>, <span class="x-key-words">whatwg-fetch</span>, <span class="x-key-words">urijs</span>, <span class="x-key-words">js-cookie</span>, <span class="x-key-words">core-js</span>, <span class="x-key-words">Webpack</span>
+								</li>
+								<li>
+									<span class="x-key-words">Karma</span>, <span class="x-key-words">Jasmine</span>, <span class="x-key-words">json-server</span>
+								</li>
+								<li>
+									<span class="x-key-words">Git/Bitbucket</span>, <span class="x-key-words">WebStorm</span>
+								</li>
+								<li>
+									<span class="x-key-words">HTML5 CORS</span>, <span class="x-key-words">REST</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a href="https://github.com/apoterenko/resume/tree/master/scheme/project11" target="_blank">
+						<b>
+							<span class="x-en">Project No. 11</span>
+							<span class="x-ru">Проект №11</span>
+							<span class="x-de">Projekt Nr. 11</span>
+							<br>
+							<span class="x-en">Personal online office account.acronis.com to manage user licenses and edit profile</span>
+							<span class="x-ru">Персональный онлайн кабинет account.acronis.com для управления лицензиями пользователя и редактированием его профиля</span>
+							<span class="x-de">Personal online office account.acronis.com to manage user licenses and edit profile</span>
+						</b>
+					</a>
+					<ul>
+						<li>
+							<span class="x-en">Successfully put to commercial use</span>
+							<span class="x-ru">Успешно запущен в коммерческую эксплуатацию</span>
+							<span class="x-de">Successfully put to commercial use</span>
+						</li>
+						<li>
+							<span class="x-en">Role: <span class="x-role">Principal Front-End Developer</span> [in a team of up to 3 front-end developers]</span>
+							<span class="x-ru">Роль: <span class="x-role">Основной Front-End разработчик</span> [в команде разработчиков front-end до 3-х человек]</span>
+							<span class="x-de">Role: <span class="x-role">Principal Front-End Developer</span> [in a team of up to 3 front-end developers]</span>
+							<ul>
+								<li>
+									<span class="x-en">Design, developing <span class="x-key-words">TypeScript</span> modules, code review, unit testing</span>
+									<span class="x-ru">Проектирование, разработка <span class="x-key-words">TypeScript</span> модулей, ревью кода, юнит-тестирование</span>
+									<span class="x-de">Design, developing <span class="x-key-words">TypeScript</span> modules, code review, unit testing</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Achievements and personal contribution:</span>
+							<span class="x-ru">Достижения и личный вклад:</span>
+							<span class="x-de">Achievements and personal contribution:</span>
+							<ul>
+								<li>
+									<span class="x-en">Long and successful migration from</span>
+									<span class="x-ru">Долгий и успешный путь миграции с</span>
+									<span class="x-de">Long and successful migration from</span>
+									<span class="x-key-words">Angular2.0.0-beta.7</span>
+									<span class="x-en">to</span>
+									<span class="x-ru">до</span>
+									<span class="x-de">to</span>
+									<span class="x-key-words">Angular2.0</span>
+								</li>
+								<li>
+									<span class="x-en">Implemented the project using a source code of the previous project:</span>
+									<span class="x-ru">Удалось реализовать проект на базе исходного кода из предыдущего проекта:</span>
+									<span class="x-de">Implemented the project using a source code of the previous project:</span>
+									<ul>
+										<li>
+											<span class="x-en">successfully implemented assembly profiles and multi-layer architecture</span>
+											<span class="x-ru">успешно реализованы профили сборки и многоуровневая архитектура</span>
+											<span class="x-de">successfully implemented assembly profiles and multi-layer architecture</span>
+										</li>
+										<li>
+											<span class="x-en">projects No. 10 and 11 share a codebase [code reuse: ~ 95%]</span>
+											<span class="x-ru">у проектов №10 и №11 одна общая кодовая база, переиспользование кода равно ~95%</span>
+											<span class="x-de">projects No. 10 and 11 share a codebase [code reuse: ~ 95%]</span>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<span class="x-en">In the course of project implementation, several modules were released as Open Source:</span>
+									<span class="x-ru">Несколько модулей были выпущены как Open Source в ходе реализации проекта:</span>
+									<span class="x-de">In the course of project implementation, several modules were released as Open Source:</span>
+									<ul>
+										<li>
+											<a href="https://github.com/apoterenko/angular2-dynamic-component" target="_blank">angular2-dynamic-component</a>, <a href="https://github.com/apoterenko/angular2-post-message" target="_blank">angular2-post-message</a>, <a href="https://github.com/apoterenko/angular2-i18next" target="_blank">angular2-i18next</a>, <a href="https://github.com/apoterenko/ts-smart-logger" target="_blank">ts-smart-logger</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<span class="x-en">Found a solution to a challenging task to improve the performance:</span>
+									<span class="x-ru">Сложная задача по улучшению производительности породила решение:</span>
+									<span class="x-de">Found a solution to a challenging task to improve the performance:</span>
+									<ul>
+										<li>
+											<a href="https://github.com/apoterenko/angular2-cache" target="_blank">angular2-cache</a>
+											<span class="x-en">implementing a new caching strategy based on</span>
+											<span class="x-ru">которое реализует новую стратегию кэширования, основанную на</span>
+											<span class="x-de">implementing a new caching strategy based on</span>
+											<span class="x-key-words">NgZone</span>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Stack:</span>
+							<span class="x-ru">Стек:</span>
+							<span class="x-de">Stack:</span>
+							<ul>
+								<li>
+									<span class="x-key-words">Angular2</span>, <span class="x-key-words">TypeScript</span>, <span class="x-key-words">Bluebird</span>, <span class="x-key-words">Lodash</span>, <span class="x-key-words">Webpack</span>
+								</li>
+								<li>
+									<span class="x-key-words">Karma</span>, <span class="x-key-words">Jasmine</span>
+								</li>
+								<li>
+									<span class="x-key-words">Git/Bitbucket</span>, <span class="x-key-words">WebStorm</span>
+								</li>
+								<li>
+									<span class="x-key-words">Flux</span>, <span class="x-key-words">REST</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a href="https://github.com/apoterenko/resume/tree/master/scheme/project10" target="_blank">
+						<b>
+							<span class="x-en">Project No. 10</span>
+							<span class="x-ru">Проект №10</span>
+							<span class="x-de">Projekt Nr. 10</span>
+							<br>
+							<span class="x-en">User licence management module [a sub-module of</span>
+							<span class="x-ru">Модуль для управления пользовательскими лицензиями [как подмодуль</span>
+							<span class="x-de">User licence management module [a sub-module of</span>
+							&laquo;On-Premise Backup Software&raquo;]
+						</b>
+					</a>
+					<ul>
+						<li>
+							<span class="x-en">Successfully put to commercial use</span>
+							<span class="x-ru">Успешно запущен в коммерческую эксплуатацию</span>
+							<span class="x-de">Successfully put to commercial use</span>
+						</li>
+						<li>
+							<span class="x-en">Role: <span class="x-role">Principal Front-End Developer</span> [in a team of up to 3 front-end developers]</span>
+							<span class="x-ru">Роль: <span class="x-role">Основной Front-End разработчик</span> [в команде разработчиков front-end до 3-х человек]</span>
+							<span class="x-de">Role: <span class="x-role">Principal Front-End Developer</span> [in a team of up to 3 front-end developers]</span>
+							<ul>
+								<li>
+									<span class="x-en">Design, developing <span class="x-key-words">TypeScript</span> modules, code review, unit testing</span>
+									<span class="x-ru">Проектирование, разработка <span class="x-key-words">TypeScript</span> модулей, ревью кода, юнит-тестирование</span>
+									<span class="x-de">Design, developing <span class="x-key-words">TypeScript</span> modules, code review, unit testing</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Achievements and personal contribution:</span>
+							<span class="x-ru">Достижения и личный вклад:</span>
+							<span class="x-de">Achievements and personal contribution:</span>
+							<ul>
+								<li>
+									<span class="x-en">The first and successful experience of using</span>
+									<span class="x-ru">Первый и успешный опыт использования</span>
+									<span class="x-de">The first and successful experience of using</span>
+									<span class="x-key-words">Angular2</span>
+									<span class="x-en">as a corporate front-end platform:</span>
+									<span class="x-ru">как front-end платформы в компании:</span>
+									<span class="x-de">as a corporate front-end platform:</span>
+									<ul>
+										<li>
+											<span class="x-key-words">Angular2</span>
+											<span class="x-en">research, introduction and troubleshooting</span>
+											<span class="x-ru">исследование, внедрение и исправление проблем</span>
+											<span class="x-de">research, introduction and troubleshooting</span>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<span class="x-en">Improved code base of</span>
+									<span class="x-ru">Сумел улучшить кода модуля на базе</span>
+									<span class="x-de">Improved code base of</span>
+									<span class="x-key-words">Flux</span>
+									<span class="x-en">-based module implemented by another team member:</span>
+									<span class="x-ru">, который был реализован моим коллегой:</span>
+									<span class="x-de">-based module implemented by another team member:</span>
+									<ul>
+										<li>
+											<span class="x-en">an introduction of</span>
+											<span class="x-ru">внедрение</span>
+											<span class="x-de">an introduction of</span>
+											<a href="https://github.com/apoterenko/angular2-di-helper" target="_blank">angular2-di-helper</a>
+											<span class="x-en"><span class="x-key-words">DI</span>-module based on</span>
+											<span class="x-ru"><span class="x-key-words">DI</span>-модуля на основе</span>
+											<span class="x-de"><span class="x-key-words">DI</span>-module based on</span>
+											<span class="x-key-words">Angular2 core</span>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<span class="x-en">The module is part of the leading product</span>
+									<span class="x-ru">Модуль является частью лидирующего продукта</span>
+									<span class="x-de">The module is part of the leading product</span>
+									&laquo;Acronis Backup 12&raquo;
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Key points:</span>
+							<span class="x-ru">Ключевые моменты:</span>
+							<span class="x-de">Kernpunkte:</span>
+							<ul>
+								<li>
+									<span class="x-en">Application architecture is based on the <span class="x-key-words">Flux</span> pattern</span>
+									<span class="x-ru">Архитектура приложения основана на <span class="x-key-words">Flux</span> шаблоне</span>
+									<span class="x-de">Application architecture is based on the <span class="x-key-words">Flux</span> pattern</span>
+								</li>
+								<li>
+									<span class="x-en">The module is integrated inside <span class="x-key-words">ExtJS</span> app using iframe</span>
+									<span class="x-ru">Модуль интегрирован в <span class="x-key-words">ExtJS</span> приложение с помощью iframe</span>
+									<span class="x-de">The module is integrated inside <span class="x-key-words">ExtJS</span> app using iframe</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Stack:</span>
+							<span class="x-ru">Стек:</span>
+							<span class="x-de">Stack:</span>
+							<ul>
+								<li>
+									<span class="x-key-words">TypeScript</span>, <span class="x-key-words">Angular2</span>, <span class="x-key-words">HTML5 postMessage</span>, <span class="x-key-words">Bluebird</span>, <span class="x-key-words">Lodash</span>, <span class="x-key-words">Webpack</span>
+								</li>
+								<li>
+									<span class="x-key-words">Karma</span>, <span class="x-key-words">Jasmine</span>
+								</li>
+								<li>
+									<span class="x-key-words">Git/Bitbucket</span>, <span class="x-key-words">WebStorm</span>
+								</li>
+								<li>
+									<span class="x-key-words">Flux</span>, <span class="x-key-words">REST</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a href="https://github.com/apoterenko/resume/tree/master/scheme/project09" target="_blank">
+						<b>
+							<span class="x-en">Project No. 9</span>
+							<span class="x-ru">Проект №9</span>
+							<span class="x-de">Projekt Nr. 9</span>
+							<br>
+							<span class="x-en">Private online office baas.acronis.com for user groups and settings management</span>
+							<span class="x-ru">Частный онлайн-кабинет baas.acronis.com для управления группами и настройками пользователей</span>
+							<span class="x-de">Private online office baas.acronis.com for user groups and settings management</span>
+						</b>
+					</a>
+					<ul>
+						<li>
+							<span class="x-en">All four product releases were successfully put into commercial use</span>
+							<span class="x-ru">Все четыре релиза продукта были успешно запущены в коммерческую эксплуатацию</span>
+							<span class="x-de">All four product releases were successfully put into commercial use</span>
+						</li>
+						<li>
+							<span class="x-en">Role: <span class="x-role">Principal Front-End Maintainer</span> [in a team of up to 3 front-end developers]</span>
+							<span class="x-ru">Роль: <span class="x-role">Основной Front-End сопровождающий</span> [в команде разработчиков front-end до 3-х человек]</span>
+							<span class="x-de">Role: <span class="x-role">Principal Front-End Maintainer</span> [in a team of up to 3 front-end developers]</span>
+							<ul>
+								<li>
+									<span class="x-en">Ensuring a high level of backward compatibility</span>
+									<span class="x-ru">Обеспечение высокого уровня обратной совместимости</span>
+									<span class="x-de">Ensuring a high level of backward compatibility</span>
+								</li>
+								<li>
+									<span class="x-en">Maintenance, developing new <span class="x-key-words">ExtJS</span> modules, fixing critical issues</span>
+									<span class="x-ru">Сопровождение, разработка <span class="x-key-words">ExtJS</span> модулей, устранение критических проблем</span>
+									<span class="x-de">Maintenance, developing new <span class="x-key-words">ExtJS</span> modules, fixing critical issues</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Achievements and personal contribution:</span>
+							<span class="x-ru">Достижения и личный вклад:</span>
+							<span class="x-de">Achievements and personal contribution:</span>
+							<ul>
+								<li>
+									<span class="x-en">The most successful experience in maintaining unstable legacy code</span>
+									<span class="x-ru">Самый успешный опыт поддержки нестабильного унаследованного кода</span>
+									<span class="x-de">The most successful experience in maintaining unstable legacy code</span>
+								</li>
+								<li>
+									<span class="x-en">The module is part of the leading product</span>
+									<span class="x-ru">Модуль является частью лидирующего продукта</span>
+									<span class="x-de">The module is part of the leading product</span>
+									&laquo;Acronis Backup 12&raquo;
+								</li>
+								<li>
+									<span class="x-en">Successfully developed a <a href="https://github.com/apoterenko/extjs-ts-console" target="_blank">demo application</a> based on</span>
+									<span class="x-ru">Успешно разработано <a href="https://github.com/apoterenko/extjs-ts-console" target="_blank">демо-приложение</a>, основанное на</span>
+									<span class="x-de">Successfully developed a <a href="https://github.com/apoterenko/extjs-ts-console" target="_blank">demo application</a> based on</span>
+									<span class="x-key-words">ExtJS6</span> & <span class="x-key-words">TypeScript</span>
+									<span class="x-en">[in a team of up to 2 front-end developers]</span>
+									<span class="x-ru">[в команде разработчиков front-end до 2-х человек]</span>
+									<span class="x-de">[in a team of up to 2 front-end developers]</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Key points:</span>
+							<span class="x-ru">Ключевые моменты:</span>
+							<span class="x-de">Kernpunkte:</span>
+							<ul>
+								<li>
+									<span class="x-en">Dozens of mock-ups as a starting point</span>
+									<span class="x-ru">Десятки макетов в качестве отправной точки</span>
+									<span class="x-de">Dozens of mock-ups as a starting point</span>
+								</li>
+								<li>
+									<span class="x-en">Stressful work environment</span>
+									<span class="x-ru">Стрессовая рабочая среда</span>
+									<span class="x-de">Stressful work environment</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Stack:</span>
+							<span class="x-ru">Стек:</span>
+							<span class="x-de">Stack:</span>
+							<ul>
+								<li>
+									<span class="x-key-words">JavaScript</span>, <span class="x-key-words">TypeScript</span>, <span class="x-key-words">ExtJS4</span>, <span class="x-key-words">ExtJS6</span>
+								</li>
+								<li>
+									<span class="x-key-words">Karma</span>, <span class="x-key-words">Jasmine</span>
+								</li>
+								<li>
+									<span class="x-key-words">Git/Bitbucket</span>, <span class="x-key-words">Jira</span>, <span class="x-key-words">WebStorm</span>
+								</li>
+								<li>
+									<span class="x-key-words">HTML5 CORS</span>, <span class="x-key-words">REST</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="x-after-project">
+				<li>
+					<a href="https://github.com/apoterenko/resume/tree/master/scheme/project08" target="_blank">
+						<b>
+							<span class="x-en">Project No. 8</span>
+							<span class="x-ru">Проект №8</span>
+							<span class="x-de">Projekt Nr. 8</span>
+							<br>
+							<span class="x-en">Email Templates</span>
+							<span class="x-ru">Шаблоны писем</span>
+							<span class="x-de">Email Templates</span>
+						</b>
+					</a>
+					<ul>
+						<li>
+							<span class="x-en">Successfully put to commercial use</span>
+							<span class="x-ru">Успешно запущен в коммерческую эксплуатацию</span>
+							<span class="x-de">Successfully put to commercial use</span>
+						</li>
+						<li>
+							<span class="x-en">Role: <span class="x-role">Principal Front-End Developer</span> [a team of 1 front-end expert]</span>
+							<span class="x-ru">Роль: <span class="x-role">Основной Front-End разработчик</span> [команда из 1-го front-end эксперта]</span>
+							<span class="x-de">Role: <span class="x-role">Principal Front-End Developer</span> [a team of 1 front-end expert]</span>
+							<ul>
+								<li>
+									<span class="x-en">Templates design and layout, development of Java-based template generator</span>
+									<span class="x-ru">Проектирование и верстка шаблонов, разработка генератора шаблонов на базе Java</span>
+									<span class="x-de">Templates design and layout, development of Java-based template generator</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Achievements and personal contribution:</span>
+							<span class="x-ru">Достижения и личный вклад:</span>
+							<span class="x-de">Achievements and personal contribution:</span>
+							<ul>
+								<li>
+									<span class="x-en">Successfully drafting email templates supporting more than ten clients [desktop and mobile software, different browsers]</span>
+									<span class="x-ru">Успешное составление шаблонов электронных писем с поддержкой более десяти клиентов [настольные и мобильные программы, различные браузеры]</span>
+									<span class="x-de">Successfully drafting email templates supporting more than ten clients [desktop and mobile software, different browsers]</span>
+								</li>
+								<li>
+									<span class="x-en">Successfully resolved the problem of rounded button corners in Microsoft Outlook, <a href="https://github.com/apoterenko/resume/blob/master/scheme/project08/src/email-rounded-button-template/activation/README.md" target="_blank">cross-client solution here</a> [the whole button area is active]</span>
+									<span class="x-ru">Успешно решена проблема закругленных углов кнопок в Microsoft Outlook, <a href="https://github.com/apoterenko/resume/blob/master/scheme/project08/src/email-rounded-button-template/activation/README.md" target="_blank">кросс-клиентное решение здесь</a> [вся область кнопки активна]</span>
+									<span class="x-de">Successfully resolved the problem of rounded button corners in Microsoft Outlook, <a href="https://github.com/apoterenko/resume/blob/master/scheme/project08/src/email-rounded-button-template/activation/README.md" target="_blank">cross-client solution here</a> [the whole button area is active]</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Key points:</span>
+							<span class="x-ru">Ключевые моменты:</span>
+							<span class="x-de">Kernpunkte:</span>
+							<ul>
+								<li>
+									<span class="x-en">A &laquo;turn-key&raquo; solution based on an adaptive layout</span>
+									<span class="x-ru">Решение &laquo;под ключ&raquo;, построенное на базе адаптивного лейаута</span>
+									<span class="x-de">A &laquo;turn-key&raquo; solution based on an adaptive layout</span>
+								</li>
+								<li>
+									<span class="x-en">Dozens of mock-ups as a starting point</span>
+									<span class="x-ru">Десятки мокапов, как отправная точка</span>
+									<span class="x-de">Dozens of mock-ups as a starting point</span>
+								</li>
+							</ul>
+						</li>
+						<li><span class="x-key-words">Html</span>, <span class="x-key-words">Java</span>, <span class="x-key-words">Jira</span>, <span class="x-key-words">emailonacid.com</span></li>
+					</ul>
+				</li>
+			</ul>
+			<b><a href="https://imigo.me" target="_blank">Imigo.me Start-up</a></b><br>
+			<b>Principal Front-End Developer</b> [ <span class="x-en">part-time</span><span class="x-ru">на неполный рабочий день</span><span class="x-de">part-time</span> ]<br>
+			<b><span class="x-en">December</span><span class="x-ru">Декабрь</span><span class="x-de">December</span> 2015 - <span class="x-en">February</span><span class="x-ru">Февраль</span><span class="x-de">February</span> 2016</b>
+			<ul class="x-top-project">
+				<li>
+					<a href="https://github.com/apoterenko/resume/tree/master/scheme/project07" target="_blank">
+						<b>
+							<span class="x-en">Project No. 7</span>
+							<span class="x-ru">Проект №7</span>
+							<span class="x-de">Projekt Nr. 7</span>
+							<br>
+							<span class="x-en">Relationship market</span>
+							<span class="x-ru">Рынок взаимоотношений</span>
+							<span class="x-de">Beziehungsmarkt</span>
+						</b>
+					</a>
+					<ul>
+						<li>
+							<span class="x-en">A minimum viable product was created and successfully put to commercial use</span>
+							<span class="x-ru">Создан минимальный жизнеспособный продукт и успешно запущен в коммерческую эксплуатацию</span>
+							<span class="x-de">A minimum viable product was created and successfully put to commercial use</span>
+						</li>
+						<li>
+							<span class="x-en">Role: <span class="x-role">Software Architect and Principal Front-End Developer</span> [in a team of up to 2 front-end developers]</span>
+							<span class="x-ru">Роль: <span class="x-role">Архитектор и основной Front-End разработчик</span> [в команде разработчиков front-end до 2-х человек]</span>
+							<span class="x-de">Role: <span class="x-role">Software Architect and Principal Front-End Developer</span> [in a team of up to 2 front-end developers]</span>
+							<ul>
+								<li>
+									<span class="x-en">Choosing a front-end platform, troubleshooting, design, development</span>
+									<span class="x-ru">Выбор front-end платформы, поиск и устранение неисправностей, проектирование, разработка</span>
+									<span class="x-de">Choosing a front-end platform, troubleshooting, design, development</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Achievements and personal contribution:</span>
+							<span class="x-ru">Достижения и личный вклад:</span>
+							<span class="x-de">Achievements and personal contribution:</span>
+							<ul>
+								<li>
+									<span class="x-en">Selected the front-end platform, launched the project from scratch, implemented automatic assembly of the project</span>
+									<span class="x-ru">Выбрал front-end платформу, запустил проект с нуля, реализовал автоматическую сборку проекта</span>
+									<span class="x-de">Selected the front-end platform, launched the project from scratch, implemented automatic assembly of the project</span>
+								</li>
+								<li>
+									<span class="x-en">Drafted the entire UI</span>
+									<span class="x-ru">Сверстал весь пользовательский интерфейс</span>
+									<span class="x-de">Drafted the entire UI</span>
+								</li>
+								<li>
+									<span class="x-en">Production version was developed within 3 months</span>
+									<span class="x-ru">За 3 месяца была разработана продакшн-версия</span>
+									<span class="x-de">Production version was developed within 3 months</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Key points:</span>
+							<span class="x-ru">Ключевые моменты:</span>
+							<span class="x-de">Kernpunkte:</span>
+							<ul>
+								<li>
+									<span class="x-en">The main goal is to create a market platform where anyone can sell their services</span>
+									<span class="x-ru">Основной целью является создание рыночной площадки, где каждый может продавать свои услуги</span>
+									<span class="x-de">The main goal is to create a market platform where anyone can sell their services</span>
+								</li>
+								<li>
+									<span class="x-en">Tight deadlines</span>
+									<span class="x-ru">Сжатые сроки</span>
+									<span class="x-de">Tight deadlines</span>
+								</li>
+								<li>
+									<span class="x-en">I am one of the founders of the company</span>
+									<span class="x-ru">Я являюсь одним из основателей компании</span>
+									<span class="x-de">I am one of the founders of the company</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Stack:</span>
+							<span class="x-ru">Стек:</span>
+							<span class="x-de">Stack:</span>
+							<ul>
+								<li>
+									<span class="x-key-words">Angular</span>, <span class="x-key-words">jQuery</span>, <span class="x-key-words">ECMAScript6/Babel</span>
+								</li>
+								<li>
+									<span class="x-key-words">Less</span>, <span class="x-key-words">Css3</span>
+								</li>
+								<li>
+									<span class="x-key-words">SystemJS</span>, <span class="x-key-words">Bower</span>, <span class="x-key-words">Gulp</span>
+								</li>
+								<li>
+									<span class="x-key-words">Git</span>, <span class="x-key-words">WebStorm</span>
+								</li>
+								<li>
+									<span class="x-key-words">SPA</span>, <span class="x-key-words">REST</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<a href="http://www.e-soft.ru" target="_blank"><b>E.Soft</b></a><br>
+			<b>Lead Programmer</b> [ <span class="x-en">full-time</span><span class="x-ru">на постоянной основе</span><span class="x-de">full-time</span> ]<br>
+			<b><span class="x-en">September</span><span class="x-ru">Сентябрь</span><span class="x-de">September</span> 2014 - <span class="x-en">February</span><span class="x-ru">Февраль</span><span class="x-de">February</span> 2015</b> [ <span class="x-en">employment</span><span class="x-ru">рабочая</span><span class="x-de">employment</span>
+			<a href="https://github.com/apoterenko/resume/blob/master/references/E.Soft.Employment%20Reference.Poterenko.A.G.pdf" target="_blank">
+				<span class="x-en">reference</span><span class="x-ru">ссылка</span><span class="x-de">reference</span>
+			</a>]
+			<ul class="x-top-project">
+				<li>
+					<a href="https://github.com/apoterenko/resume/tree/master/scheme/project06" target="_blank">
+						<b>
+							<span class="x-en">Project No. 6</span>
+							<span class="x-ru">Проект №6</span>
+							<span class="x-de">Projekt Nr. 6</span>
+							<br>
+							<span class="x-en">Data migration tool for importing Xml files from IBM Lotus Notes to PostgreSql</span>
+							<span class="x-ru">Инструмент миграции данных для импорта Xml-файлов из IBM Lotus Notes в PostgreSql</span>
+							<span class="x-de">Data migration tool for importing Xml files from IBM Lotus Notes to PostgreSql</span>
+						</b>
+					</a>
+					<ul>
+						<li>
+							<span class="x-en">Successfully launched for commercial use</span>
+							<span class="x-ru">Успешно запущен в коммерческую эксплуатацию</span>
+							<span class="x-de">Successfully launched for commercial use</span>
+						</li>
+						<li>
+							<span class="x-en">Role: <span class="x-role">Principal Back-End Developer</span> [a team of 1 back-end expert]</span>
+							<span class="x-ru">Роль: <span class="x-role">Основной Back-End разработчик</span> [команда из 1-го back-end эксперта]</span>
+							<span class="x-de">Role: <span class="x-role">Principal Back-End Developer</span> [a team of 1 back-end expert]</span>
+							<ul>
+								<li>
+									<span class="x-en">Developing migration algorithms, <span class="x-key-words">Sql</span> expressions and <span class="x-key-words">Java</span> modules</span>
+									<span class="x-ru">Разработка алгоритмов миграции, <span class="x-key-words">Sql</span> выражений и модулей <span class="x-key-words">Java</span></span>
+									<span class="x-de">Developing migration algorithms, <span class="x-key-words">Sql</span> expressions and <span class="x-key-words">Java</span> modules</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Achievements and personal contribution:</span>
+							<span class="x-ru">Достижения и личный вклад:</span>
+							<span class="x-de">Achievements and personal contribution:</span>
+							<ul>
+								<li>
+									<span class="x-en">More than 15 million successfully imported <span class="x-key-words">Xml</span> and binary files, more than 10 million entities created in the database</span>
+									<span class="x-ru">Более 15 миллионов успешно импортированных <span class="x-key-words">Xml</span>-файлов и бинарных файлов, более 10 миллионов сущностей, созданных в базе данных</span>
+									<span class="x-de">More than 15 million successfully imported <span class="x-key-words">Xml</span> and binary files, more than 10 million entities created in the database</span>
+								</li>
+								<li>
+									<span class="x-en">Transactional operation algorithm:</span>
+									<span class="x-ru">Транзакционный алгоритм работы:</span>
+									<span class="x-de">Transactional operation algorithm:</span>
+									<ul>
+										<li>
+											<span class="x-en">import process recovery after possible failure or deliberate interruption of tool</span>
+											<span class="x-ru">восстановление процесса импорта после возможного сбоя или преднамеренной остановки утилиты</span>
+											<span class="x-de">import process recovery after possible failure or deliberate interruption of tool</span>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Key points:</span>
+							<span class="x-ru">Ключевые моменты:</span>
+							<span class="x-de">Kernpunkte:</span>
+							<ul>
+								<li>
+									<span class="x-en">The tool dynamically creates structures for tables and dependent tables, as requested</span>
+									<span class="x-ru">Инструмент динамически создает структуры таблиц и зависимых таблиц по требованию</span>
+									<span class="x-de">The tool dynamically creates structures for tables and dependent tables, as requested</span>
+								</li>
+								<li>
+									<span class="x-en">Tens of terabytes of imported data</span>
+									<span class="x-ru">Десятки терабайт импортируемых данных</span>
+									<span class="x-de">Tens of terabytes of imported data</span>
+								</li>
+								<li>
+									<span class="x-en">Import process time is more than 24 hours; no errors caused by memory overflow</span>
+									<span class="x-ru">Время процесса импорта более суток; отсутствие ошибок, связанных с переполнением памяти</span>
+									<span class="x-de">Import process time is more than 24 hours; no errors caused by memory overflow</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Stack:</span>
+							<span class="x-ru">Стек:</span>
+							<span class="x-de">Stack:</span>
+							<ul>
+								<li>
+									<span class="x-key-words">Java</span>, <span class="x-key-words">Nio file</span>, <span class="x-key-words">Guava</span>, <span class="x-key-words">Jooq</span>, <span class="x-key-words">Xml</span>
+								</li>
+								<li>
+									<span class="x-key-words">Maven</span>, <span class="x-key-words">PostgreSql</span>, <span class="x-key-words">IntelliJ Idea</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a href="https://github.com/apoterenko/resume/tree/master/scheme/project05" target="_blank">
+						<b>
+							<span class="x-en">Project No. 5</span>
+							<span class="x-ru">Проект №5</span>
+							<span class="x-de">Projekt Nr. 5</span>
+							<br>
+							<span class="x-en">Data migration tool based on existing WFMS inner system Java modules for importing Xml files to PostgreSql</span>
+							<span class="x-ru">Инструмент миграции данных, основанный на существующих Java-модулях внутренней системы WFMS для импорта Xml-файлов в PostgreSql</span>
+							<span class="x-de">Data migration tool based on existing WFMS inner system Java modules for importing Xml files to PostgreSql</span>
+						</b>
+					</a>
+					<ul>
+						<li>
+							<span class="x-en">Successfully launched for commercial use</span>
+							<span class="x-ru">Успешно запущен в коммерческую эксплуатацию</span>
+							<span class="x-de">Successfully launched for commercial use</span>
+						</li>
+						<li>
+							<span class="x-en">Role: <span class="x-role">Principal Back-End Developer</span> [a team of 1 back-end expert]</span>
+							<span class="x-ru">Роль: <span class="x-role">Основной Back-End разработчик</span> [команда из 1-го back-end эксперта]</span>
+							<span class="x-de">Role: <span class="x-role">Principal Back-End Developer</span> [a team of 1 back-end expert]</span>
+							<ul>
+								<li>
+									<span class="x-en">Developing migration algorithms, <span class="x-key-words">Sql</span> expressions and <span class="x-key-words">Java</span> modules</span>
+									<span class="x-ru">Разработка алгоритмов миграции, <span class="x-key-words">Sql</span> выражений и модулей <span class="x-key-words">Java</span></span>
+									<span class="x-de">Developing migration algorithms, <span class="x-key-words">Sql</span> expressions and <span class="x-key-words">Java</span> modules</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Achievements and personal contribution:</span>
+							<span class="x-ru">Достижения и личный вклад:</span>
+							<span class="x-de">Achievements and personal contribution:</span>
+							<ul>
+								<li>
+									<span class="x-en">External data was successfully imported to the local database</span>
+									<span class="x-ru">Внешние данные были успешно перенесены в локальную базу данных</span>
+									<span class="x-de">External data was successfully imported to the local database</span>
+								</li>
+								<li>
+									<span class="x-en">Finding nontrivial solutions to challenging tasks:</span>
+									<span class="x-ru">Поиск нетривиального подхода к решению поставленной задачи:</span>
+									<span class="x-de">Finding nontrivial solutions to challenging tasks:</span>
+									<ul>
+										<li>
+											<span class="x-en">managed to create and introduce the migration tool into Workflow Management System</span>
+											<span class="x-ru">удалось создать и внедрить инструмент миграции в Систему электронного документооборота</span>
+											<span class="x-de">managed to create and introduce the migration tool into Workflow Management System</span>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Stack:</span>
+							<span class="x-ru">Стек:</span>
+							<span class="x-de">Stack:</span>
+							<ul>
+								<li>
+									<span class="x-key-words">Java</span>, <span class="x-key-words">Jaxb</span>, <span class="x-key-words">Spring IoC</span>, <span class="x-key-words">Xml</span>, <span class="x-key-words">Sql</span>
+								</li>
+								<li>
+									<span class="x-key-words">Maven</span>, <span class="x-key-words">PostgreSql</span>, <span class="x-key-words">IntelliJ Idea</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a href="https://github.com/apoterenko/resume/tree/master/scheme/project04" target="_blank">
+						<b>
+							<span class="x-en">Project No. 4</span>
+							<span class="x-ru">Проект №4</span>
+							<span class="x-de">Projekt Nr. 4</span>
+							<br>
+							<span class="x-en">Web Client for Workflow Management System</span>
+							<span class="x-ru">Веб-клиент к электронной системе документооборота</span>
+							<span class="x-de">Web Client for Workflow Management System</span>
+						</b>
+					</a>
+					<ul>
+						<li>
+							<span class="x-en">A minimally viable product was successfully created</span>
+							<span class="x-ru">Успешно создан минимальный жизнеспособный продукт</span>
+							<span class="x-de">A minimally viable product was successfully created</span>
+						</li>
+						<li>
+							<span class="x-en">Role: <span class="x-role">Software Architect and Principal Front-End Developer</span> [a team of 1 front-end expert]</span>
+							<span class="x-ru">Роль: <span class="x-role">Архитектор и основной Front-End разработчик</span> [команда из 1-го front-end эксперта]</span>
+							<span class="x-de">Role: <span class="x-role">Software Architect and Principal Front-End Developer</span> [a team of 1 front-end expert]</span>
+							<ul>
+								<li>
+									<span class="x-en">Design, developing modules, continuous integration</span>
+									<span class="x-ru">Проектирование, разработка модулей, непрерывная интеграция</span>
+									<span class="x-de">Design, developing modules, continuous integration</span>
+								</li>
+								<li>
+									<span class="x-en">Integrating into the current ecosystem</span>
+									<span class="x-ru">Интеграция в существующую экосистему</span>
+									<span class="x-de">Integrating into the current ecosystem</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Achievements and personal contribution:</span>
+							<span class="x-ru">Достижения и личный вклад:</span>
+							<span class="x-de">Achievements & personal contribution:</span>
+							<ul>
+								<li>
+									<span class="x-en">MVP was developed within 3 months</span>
+									<span class="x-ru">За 3 месяца была разработана MVP-версия</span>
+									<span class="x-de">MVP was developed within 3 months</span>
+								</li>
+								<li>
+									<span class="x-en">Multi-layer architecture separates the user interface from core</span>
+									<span class="x-ru">Многоуровневая архитектура отделяет пользовательский интерфейс от ядра</span>
+									<span class="x-de">Multi-layer architecture separates the user interface from core</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Key points:</span>
+							<span class="x-ru">Ключевые моменты:</span>
+							<span class="x-de">Kernpunkte:</span>
+							<ul>
+								<li>
+									<span class="x-en">The main goal is to create a web client that will completely coincide functionally with the client's desktop version based on</span>
+									<span class="x-ru">Основной целью является создание веб-клиента, который бы полностью повторил функционал настольной версии клиента, основанной на</span>
+									<span class="x-de">Das Hauptziel besteht in der Erstellung eines Web-Clients mit den gleichen Funktionen, die in der Tabletop-Version des Clients vorhanden sind, basiert auf</span>
+									<span class="x-key-words">Java Swing</span>
+								</li>
+								<li>
+									<span class="x-en">Dynamically extensible user interface, based on a special <span class="x-key-words">Xml</span> format with injected dynamic behavior</span>
+									<span class="x-ru">Динамически-расширяемый пользовательский интерфейс, основанный на специальном формате <span class="x-key-words">Xml</span>, с инжектируемым динамическим поведением</span>
+									<span class="x-de">Dynamically extensible user interface, based on a special <span class="x-key-words">Xml</span> format with injected dynamic behavior</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Stack:</span>
+							<span class="x-ru">Стек:</span>
+							<span class="x-de">Stack:</span>
+							<ul>
+								<li>
+									<span class="x-key-words">JavaScript</span>, <span class="x-key-words">ExtJS5</span>, <span class="x-key-words">Google Closure Library</span>
+								</li>
+								<li>
+									<span class="x-key-words">Java</span>, <span class="x-key-words">Guice</span>, <span class="x-key-words">Gson</span>, <span class="x-key-words">Servlets</span>, <span class="x-key-words">Guice-servlet</span>, <span class="x-key-words">Tomcat</span>, <span class="x-key-words">Xml</span>
+								</li>
+								<li>
+									<span class="x-key-words">MVC</span>, <span class="x-key-words">JXON</span>, <span class="x-key-words">JSON-RPC</span>
+								</li>
+								<li>
+									<span class="x-key-words">Maven</span>, <span class="x-key-words">Svn</span>, <span class="x-key-words">IntelliJ Idea</span>, <span class="x-key-words">TeamCity</span>, <span class="x-key-words">YouTrack</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<a href="https://qiwi.com" target="_blank"><b>Qiwi Plc</b></a> <a href="https://en.wikipedia.org/wiki/Qiwi" target="_blank">Payment System</a> [Lead Programmer] [01/11/2011-23/07/2014] [Full-time work] [Employment <a href="https://github.com/apoterenko/resume/blob/master/references/Qiwi.Employment%20Reference.Poterenko.A.G.pdf" target="_blank">reference</a>]
+			<ul>
+				<li>
+					<a href="https://github.com/apoterenko/resume/tree/master/scheme/project03" target="_blank">
+						<b>
+							<span class="x-en">Project No. 3</span>
+							<span class="x-ru">Проект №3</span>
+							<span class="x-de">Projekt Nr. 3</span>
+						</b>
+					</a>
+					<ul>
+						<li class="x-project-name">
+							<span class="x-en">For <a href="https://en.wikipedia.org/wiki/Interactive_kiosk" target="_blank">payment kiosks</a>: &laquo;Visibility of providers&raquo; module v1.x, payment system core</span>
+							<span class="x-ru">Для <a href="https://en.wikipedia.org/wiki/Interactive_kiosk" target="_blank">платежных терминалов</a>: модуль &laquo;Видимость провайдеров&raquo; 1.x версия, ядро платежной системы</span>
+							<span class="x-de">For <a href="https://en.wikipedia.org/wiki/Interactive_kiosk" target="_blank">payment kiosks</a>: &laquo;Visibility of providers&raquo; module v1.x, payment system core</span>
+						</li>
+						<li>
+							<span class="x-en">Successfully launched for commercial use</span>
+							<span class="x-ru">Успешно запущен в коммерческую эксплуатацию</span>
+							<span class="x-de">Successfully launched for commercial use</span>
+						</li>
+						<li>
+							<span class="x-en">Role: <span class="x-role">Principal Back-End Developer</span> [a team of 1 Back-End expert]</span>
+							<span class="x-ru">Роль: <span class="x-role">Основной Back-End разработчик</span> [команда из 1-го Back-End эксперта]</span>
+							<span class="x-de">Role: <span class="x-role">Principal Back-End Developer</span> [a team of 1 Back-End expert]</span>
+							<ul>
+								<li>
+									<span class="x-en">Designing database and algorithms, developing <span class="x-key-words">Java</span> modules and <span class="x-key-words">Sql</span>-queries</span>
+									<span class="x-ru">Проектирование алгоритмов и базы данных, разрабатывание <span class="x-key-words">Java</span>-модулей и <span class="x-key-words">Sql</span>-запросов</span>
+									<span class="x-de">Designing database and algorithms, developing <span class="x-key-words">Java</span> modules and <span class="x-key-words">Sql</span>-queries</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Achievements & personal contribution:</span>
+							<span class="x-ru">Достижения и личный вклад:</span>
+							<span class="x-de">Achievements & personal contribution:</span>
+							<ul>
+								<li>
+									<span class="x-en">The first version of the module was in operation for about 1.5 years without a single glitch</span>
+									<span class="x-ru">Первая версия модуля находилась в эксплуатации в течение примерно 1,5 лет без единого сбоя</span>
+									<span class="x-de">The first version of the module was in operation for about 1.5 years without a single glitch</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Key points:</span>
+							<span class="x-ru">Ключевые моменты:</span>
+							<span class="x-de">Kernpunkte:</span>
+							<ul>
+								<li>
+									<span class="x-en">The module core implements complex algorithms and operates under high loads</span>
+									<span class="x-ru">Сложная алгоритмическая база в ядре и высоко-нагруженная среда работы модуля</span>
+									<span class="x-de">The module core implements complex algorithms and operates under high loads</span>
+								</li>
+								<li>
+									<span class="x-en">Critically high responsibility, high cost of errors or malfunctions</span>
+									<span class="x-ru">Критически высокая ответственность, высокая цена ошибок или сбоев</span>
+									<span class="x-de">Critically high responsibility, high cost of errors or malfunctions</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Stack:</span>
+							<span class="x-ru">Стек:</span>
+							<span class="x-de">Stack:</span>
+							<ul>
+								<li>
+									<span class="x-key-words">Java</span>, <span class="x-key-words">Memcached</span>, <span class="x-key-words">JUnit</span>
+								</li>
+								<li>
+									<span class="x-key-words">Sql</span>, <span class="x-key-words">Oracle</span>
+								</li>
+								<li>
+									<span class="x-key-words">Git</span>, <span class="x-key-words">IntelliJ Idea</span>, <span class="x-key-words">Toad</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="https://github.com/apoterenko/resume/tree/master/scheme/project02" target="_blank">
+						<b>
+							<span class="x-en">Project No. 2</span>
+							<span class="x-ru">Проект №2</span>
+							<span class="x-de">Projekt Nr. 2</span>
+						</b>
+					</a>
+					<ul>
+						<li class="x-project-name">
+							<span class="x-en">Jira plugins for in-house customers</span>
+							<span class="x-ru">Jira-плагины для внутренних заказчиков</span>
+							<span class="x-de">Jira plugins for in-house customers</span>
+						</li>
+						<li>
+							<span class="x-en">Successfully launched for commercial use</span>
+							<span class="x-ru">Успешно запущен в коммерческую эксплуатацию</span>
+							<span class="x-de">Successfully launched for commercial use</span>
+						</li>
+						<li>
+							<span class="x-en">Role: <span class="x-role">System Architect assistant</span> [in developers team of up to 2 people]</span>
+							<span class="x-ru">Роль: <span class="x-role">Помощник системного архитектора</span> [в команде разработчиков до 2-х человек]</span>
+							<span class="x-de">Role: <span class="x-role">System Architect assistant</span> [in developers team of up to 2 people]</span>
+							<ul>
+								<li>
+									<span class="x-en">Development, maintenance</span>
+									<span class="x-ru">Разработка, сопровождение</span>
+									<span class="x-de">Development, maintenance</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Achievements & personal contribution:</span>
+							<span class="x-ru">Достижения и личный вклад:</span>
+							<span class="x-de">Achievements & personal contribution:</span>
+							<ul>
+								<li>
+									<span class="x-en">Managed to create the useful plugins for the activities automation of the Analytical Dept.</span>
+									<span class="x-ru">Удалось создать полезные плагины для автоматизации деятельности аналитического отдела</span>
+									<span class="x-de">Managed to create the useful plugins for the activities automation of the Analytical Dept.</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Key points:</span>
+							<span class="x-ru">Ключевые моменты:</span>
+							<span class="x-de">Kernpunkte:</span>
+							<ul>
+								<li>
+									<span class="x-en">The key plugin evaluates completion time of Jira-tasks assigned to software developers</span>
+									<span class="x-ru">Ключевой плагин это плагин для расчета и оценки времени завершения Jira-задач программистов</span>
+									<span class="x-de">The key plugin evaluates completion time of Jira-tasks assigned to software developers</span>
+								</li>
+								<li>
+									<span class="x-en">Most plugins have a UI</span>
+									<span class="x-ru">Большая часть плагинов имеет пользовательский интерфейс</span>
+									<span class="x-de">Most plugins have a UI</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Stack:</span>
+							<span class="x-ru">Стек:</span>
+							<span class="x-de">Stack:</span>
+							<ul>
+								<li>
+									<span class="x-key-words">Java</span>, <span class="x-key-words">Spring IoC</span>, <span class="x-key-words">Guava</span>, <span class="x-key-words">Apache Velocity</span>, <span class="x-key-words">Atlassian SDK</span>
+								</li>
+								<li>
+									<span class="x-key-words">Maven</span>, <span class="x-key-words">Git</span>, <span class="x-key-words">Gerrit</span>
+								</li>
+								<li>
+									<span class="x-key-words">Jira</span>, <span class="x-key-words">IntelliJ Idea</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="https://github.com/apoterenko/resume/tree/master/scheme/project01" target="_blank">
+						<b>
+							<span class="x-en">Project No. 1</span>
+							<span class="x-ru">Проект №1</span>
+							<span class="x-de">Projekt Nr. 1</span>
+						</b>
+					</a>
+					<ul>
+						<li class="x-project-name">
+							<span class="x-en">Private online office agent.qiwi.com, the main working portal for all customers</span>
+							<span class="x-ru">Частный онлайн-кабинет agent.qiwi.com, главный рабочий портал для всех клиентов</span>
+							<span class="x-de">Private online office agent.qiwi.com, the main working portal for all customers</span>
+						</li>
+						<li>
+							<span class="x-en">Successfully launched for commercial use</span>
+							<span class="x-ru">Успешно запущен в коммерческую эксплуатацию</span>
+							<span class="x-de">Successfully launched for commercial use</span>
+						</li>
+						<li>
+							<span class="x-en">Role:</span>
+							<span class="x-ru">Роль:</span>
+							<span class="x-de">Role:</span>
+							<ul>
+								<li>
+									<span class="x-en"><span class="x-role">Principal Front-End/Back-End Application Developer</span> [in developers team of up to 6 people]</span>
+									<span class="x-ru"><span class="x-role">Основной Front-End/Back-End прикладной разработчик</span> [в команде разработчиков до 6-х человек]</span>
+									<span class="x-de"><span class="x-role">Principal Front-End/Back-End Application Developer</span> [in developers team of up to 6 people]</span>
+									<ul>
+										<li>
+											<span class="x-en">20% of system tasks; 80% of application tasks</span>
+											<span class="x-ru">20% системных задач; 80% прикладных задач</span>
+											<span class="x-de">20% of system tasks; 80% of application tasks</span>
+										</li>
+										<li>
+											<span class="x-en">Developing <span class="x-key-words">Java</span> & <span class="x-key-words">JavaScript</span> modules and <span class="x-key-words">Sql</span> expressions; code review; unit testing; fixing of critical issues</span>
+											<span class="x-ru">Разработка <span class="x-key-words">Java</span> & <span class="x-key-words">JavaScript</span> модулей и <span class="x-key-words">Sql</span> выражений; ревью кода; юнит-тестирование; устранение критических проблем</span>
+											<span class="x-de">Developing <span class="x-key-words">Java</span> & <span class="x-key-words">JavaScript</span> modules and <span class="x-key-words">Sql</span> expressions; code review; unit testing; fixing of critical issues</span>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<span class="x-en">Final year: <span class="x-role">Team Leader</span>, actual <span class="x-role">Project Manager</span></span>
+									<span class="x-ru">В последний год - как <span class="x-role">ведущий команды</span>, не формально исполнял роль <span class="x-role">менеджера проекта</span></span>
+									<span class="x-de">Final year: <span class="x-role">Team Leader</span>, actual <span class="x-role">Project Manager</span></span>
+									<ul>
+										<li>
+											<span class="x-en">Ensuring of deadlines</span>
+											<span class="x-ru">Обеспечение сроков</span>
+											<span class="x-de">Ensuring of deadlines</span>
+										</li>
+										<li>
+											<span class="x-en">Providing estimates on items of development work</span>
+											<span class="x-ru">Предоставление оценок по пунктам основных работ разработки</span>
+											<span class="x-de">Providing estimates on items of development work</span>
+										</li>
+										<li>
+											<span class="x-en">Task requirements and specifications analysis; prototype analysis and translation to Jira tasks</span>
+											<span class="x-ru">Проработка технических требований и спецификаций к задачам, анализ макетов и перевод их в Jira-задачи</span>
+											<span class="x-de">Task requirements and specifications analysis; prototype analysis and translation to Jira tasks</span>
+										</li>
+										<li>
+											<span class="x-en">Escalating any major issues to the appropriate stakeholders, assigning duties to regular developers</span>
+											<span class="x-ru">Эскалация любых важных проблем до соответствующих заинтересованных сторон, распределение обязанностей среди младших программистов</span>
+											<span class="x-de">Escalating any major issues to the appropriate stakeholders, assigning duties to regular developers</span>
+										</li>
+										<li>
+											<span class="x-en">Work closely with customers, QA, product managers, release managers, database and system module developers</span>
+											<span class="x-ru">Работа в тесном контакте с клиентами, QA, менеджерами по продуктам, менеджерами релизов, разработчиками базы данных и модулей системы</span>
+											<span class="x-de">Work closely with customers, QA, product managers, release managers, database and system module developers</span>
+										</li>
+										<li>
+											<span class="x-en">Conducting job interviews with <span class="x-key-words">JavaScript</span> developer applicants</span>
+											<span class="x-ru">Проведение интервью на позицию <span class="x-key-words">JavaScript</span>-программиста</span>
+											<span class="x-de">Conducting job interviews with <span class="x-key-words">JavaScript</span> developer applicants</span>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Achievements & personal contribution:</span>
+							<span class="x-ru">Достижения и личный вклад:</span>
+							<span class="x-de">Achievements & personal contribution:</span>
+							<ul>
+								<li>
+									<span class="x-en">Over 150 successfully developed application and system tasks [over 6 years]</span>
+									<span class="x-ru">Более чем 150 успешно завершенных прикладных и системных задач [за 6 лет]</span>
+									<span class="x-de">Over 150 successfully developed application and system tasks [over 6 years]</span>
+								</li>
+								<li>
+									<span class="x-en">Over 20 significant successful releases [in the last 3 years]</span>
+									<span class="x-ru">Более 20 значительных успешных релизов [в течение последних 3-х лет]</span>
+									<span class="x-de">Over 20 significant successful releases [in the last 3 years]</span>
+								</li>
+								<li>
+									<span class="x-en">The following modules have contributed a lot to the project's success:</span>
+									<span class="x-ru">Следующие модули внесли большой вклад в успех проекта:</span>
+									<span class="x-de">The following modules have contributed a lot to the project's success:</span>
+									<ul>
+										<li>
+											<span class="x-en">protection modules to prevent attacks via client-side scripting based on</span>
+											<span class="x-ru">модули защиты для предотвращения атак через клиентские сценарии на основе</span>
+											<span class="x-de">protection modules to prevent attacks via client-side scripting based on</span>
+											<span class="x-key-words">OWASP AntiSamy</span>
+										</li>
+										<li>
+											<span class="x-en">reporting module, extensions based on</span>
+											<span class="x-ru">модуль отчетов, расширения на основе</span>
+											<span class="x-de">reporting module, extensions based on</span>
+											<span class="x-key-words">JasperReports</span>
+										</li>
+										<li>
+											<span class="x-en">dozens of widgets, plugins and extensions based on</span>
+											<span class="x-ru">десятки виджетов, плагинов и расширений на основе</span>
+											<span class="x-de">dozens of widgets, plugins and extensions based on</span>
+											<span class="x-key-words">ExtJS</span>
+										</li>
+										<li>
+											<span class="x-en">&laquo;Visibility of providers&raquo; module v1.x, payment system core</span>
+											<span class="x-ru">модуль &laquo;Видимость провайдеров&raquo; 1.x версия, ядро платежной системы</span>
+											<span class="x-de">&laquo;Visibility of providers&raquo; module v1.x, payment system core</span>
+										</li>
+										<li>
+											<span class="x-en">&laquo;Re-posting of payments&raquo; module, payment system core</span>
+											<span class="x-ru">модуль &laquo;Перепроведение платежей&raquo;, ядро платежной системы</span>
+											<span class="x-de">&laquo;Re-posting of payments&raquo; module, payment system core</span>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Key points:</span>
+							<span class="x-ru">Ключевые моменты:</span>
+							<span class="x-de">Kernpunkte:</span>
+							<ul>
+								<li>
+									<span class="x-key-words">Agile</span>, <span class="x-key-words">Scrum</span>
+								</li>
+								<li>
+									<span class="x-en">Stressful work environment</span>
+									<span class="x-ru">Стрессовая рабочая обстановка</span>
+									<span class="x-de">Stressful work environment</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Stack:</span>
+							<span class="x-ru">Стек:</span>
+							<span class="x-de">Stack:</span>
+							<ul>
+								<li>
+									<span class="x-key-words">JavaScript</span>, <span class="x-key-words">ExtJS3</span>, <span class="x-key-words">ExtJS4</span>
+								</li>
+								<li>
+									<span class="x-key-words">Sql</span>, <span class="x-key-words">Java</span>, <span class="x-key-words">Guice</span>, <span class="x-key-words">Jdbc</span>, <span class="x-key-words">Guava</span>, <span class="x-key-words">Camel</span>, <span class="x-key-words">JasperReports</span>, <span class="x-key-words">FreeMarker</span>, <span class="x-key-words">Struts</span>, <span class="x-key-words">Servlets</span>, <span class="x-key-words">Jsp</span>, <span class="x-key-words">Guice-servlet</span>, <span class="x-key-words">OWASP AntiSamy</span>, <span class="x-key-words">TestNg</span>
+								</li>
+								<li>
+									<span class="x-key-words">Maven</span>, <span class="x-key-words">Git</span>, <span class="x-key-words">Gerrit</span>, <span class="x-key-words">Jira</span>, <span class="x-key-words">TeamCity</span>
+								</li>
+								<li>
+									<span class="x-key-words">Tomcat</span>, <span class="x-key-words">Oracle</span>, <span class="x-key-words">Toad</span>, <span class="x-key-words">IntelliJ Idea</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<a href="https://qiwi.com" target="_blank"><b>Qiwi Plc</b></a> <a href="https://en.wikipedia.org/wiki/Qiwi" target="_blank">Payment System</a> [Senior Programmer] [01/01/2009-31/10/2011] [Full-time work] [Employment <a href="https://github.com/apoterenko/resume/blob/master/references/Qiwi.Employment%20Reference.Poterenko.A.G.pdf" target="_blank">reference</a>]
+			<ul>
+				<li>
+					<a href="https://github.com/apoterenko/resume/tree/master/scheme/project01" target="_blank">
+						<b>
+							<span class="x-en">Project No. 1</span>
+							<span class="x-ru">Проект №1</span>
+							<span class="x-de">Projekt Nr. 1</span>
+						</b>
+					</a>
+					<ul>
+						<li class="x-project-name">
+							<span class="x-en">Private online office agent.qiwi.com, the main working portal for all customers</span>
+							<span class="x-ru">Частный онлайн-кабинет agent.qiwi.com, главный рабочий портал для всех клиентов</span>
+							<span class="x-de">Private online office agent.qiwi.com, the main working portal for all customers</span>
+						</li>
+						<li>
+							<span class="x-en">Migration to <span class="x-key-words">Java</span> & <span class="x-key-words">ExtJS</span>-stack was successfully completed</span>
+							<span class="x-ru">Миграция на <span class="x-key-words">Java</span> & <span class="x-key-words">ExtJS</span>-стек была успешно завершена</span>
+							<span class="x-de">Migration to <span class="x-key-words">Java</span> & <span class="x-key-words">ExtJS</span>-stack was successfully completed</span>
+						</li>
+						<li>
+							<span class="x-en">Role: <span class="x-role">Front-End/Back-End Application Developer</span> [in developers team of up to 3 people]</span>
+							<span class="x-ru">Роль: <span class="x-role">Front-End/Back-End прикладной разработчик</span> [в команде разработчиков до 3-х человек]</span>
+							<span class="x-de">Role: <span class="x-role">Front-End/Back-End Application Developer</span> [in developers team of up to 3 people]</span>
+							<ul>
+								<li>
+									<span class="x-en">Developing <span class="x-key-words">Java</span> & <span class="x-key-words">JavaScript</span> modules and <span class="x-key-words">Sql</span> expressions</span>
+									<span class="x-ru">Разработка <span class="x-key-words">Java</span> & <span class="x-key-words">JavaScript</span> модулей и <span class="x-key-words">Sql</span> выражений</span>
+									<span class="x-de">Developing <span class="x-key-words">Java</span> & <span class="x-key-words">JavaScript</span> modules and <span class="x-key-words">Sql</span> expressions</span>
+								</li>
+								<li>
+									<span class="x-en">Legacy Php-code elimination</span>
+									<span class="x-ru">Устранение легаси PHP-кода</span>
+									<span class="x-de">Legacy Php-code elimination</span>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span class="x-en">Stack:</span>
+							<span class="x-ru">Стек:</span>
+							<span class="x-de">Stack:</span>
+							<ul>
+								<li>
+									<span class="x-key-words">JavaScript</span>, <span class="x-key-words">ExtJS2</span>, <span class="x-key-words">ExtJS3</span>
+								</li>
+								<li>
+									<span class="x-key-words">Sql</span>, <span class="x-key-words">Java</span>, <span class="x-key-words">Struts</span>, <span class="x-key-words">Servlets</span>, <span class="x-key-words">Jsp</span>
+								</li>
+								<li>
+									<span class="x-key-words">Tomcat</span>, <span class="x-key-words">Oracle</span>, <span class="x-key-words">Toad</span>, <span class="x-key-words">IntelliJ Idea</span>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<a href="https://qiwi.com" target="_blank"><b>Qiwi Plc</b></a> <a href="https://en.wikipedia.org/wiki/Qiwi" target="_blank">Payment System</a> [Junior Programmer] [22/07/2008-31/12/2008] [Full-time work] [Employment <a href="https://github.com/apoterenko/resume/blob/master/references/Qiwi.Employment%20Reference.Poterenko.A.G.pdf" target="_blank">reference</a>]
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-xs-2">
+			<b>EDUCATIONAL QUALIFICATION</b>
+		</div>
+		<div class="col-xs-10">
+			<a href="http://www.ulstu.ru/?design=english" target="_blank"><b>Ulyanovsk State Technical University (UlSTU)</b></a> [09/2003-06/2008]<br>
+			<ul>
+				<li>
+					<span class="x-en x-role">Software Engineering</span>
+					<span class="x-ru x-role">Программное обеспечение вычислительной техники и автоматизированных систем</span>
+					<span class="x-de x-role">Software Engineering</span>
+					,
+					<span class="x-en">full-time student</span>
+					<span class="x-ru">очная форма обучения</span>
+					<span class="x-de">full-time student</span>
+				</li>
+				<li>
+					Bachelor's Degree/Specialist [GPA ~4.0/5.0]
+				</li>
+				<li>Degree <a href="https://github.com/apoterenko/resume/blob/master/educational%20qualifications/Degree.pdf" target="_blank">reference</a> & Transcript <a href="https://github.com/apoterenko/resume/blob/master/educational%20qualifications/Transcript.pdf" target="_blank">reference</a>, <a href="https://github.com/apoterenko/resume/blob/master/educational%20qualifications/UlSTU.pdf" target="_blank">Anabin H+</a></li>
+				<li>
+					<a href="https://github.com/apoterenko/resume/tree/master/educational%20qualifications/docs/diploma" target="_blank"><b>Diploma</b></a> [01/09/2007-31/05/2008]
+					<ul>
+						<li>Developing a cross-platform Web-portal for processing orders at an automobile store [Excellent, 5/5]</li>
+						<li>Jse, Jme, Jee, Hibernate, Struts, Servlets, Jsp, Apache Axis, Tomcat</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script>
+	initLanguage();
+	setLanguage();
+
+	if (winHref.indexOf('translate') > -1) {
+		document.body.className = 'x-translate';
+	}
+</script>
+</body>
+</html>
